@@ -4508,7 +4508,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 5rem;
 }
 
 .navbar .container,
@@ -4525,7 +4525,7 @@ input[type=button].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
+  padding-top: 0rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
@@ -4544,6 +4544,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  gap: 2rem;
 }
 
 .navbar-nav .nav-link {
@@ -11155,7 +11156,7 @@ a.text-dark:focus {
 .navbar {
   z-index: 10;
   margin-bottom: 0;
-  padding-top: 1.5rem;
+  padding-top: 0.5rem;
 }
 
 .navbar .navbar-brand {
@@ -11168,7 +11169,7 @@ a.text-dark:focus {
 }
 
 .navbar .navbar-brand img {
-  max-height: 50px;
+  max-height: 80px;
 }
 
 .navbar .navbar-nav .nav-item a.nav-link:not(.solid-btn) {
